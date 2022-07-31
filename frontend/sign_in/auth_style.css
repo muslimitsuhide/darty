@@ -21,6 +21,7 @@ body{
 }
 .inp{
     padding:20px;
+    position: relative;
 }
 .log{
     border: 1px solid #dcdcdc; 
@@ -33,6 +34,12 @@ body{
     padding: 12px 10px; 
     width: 290px; 
     border-radius: 0px 0px 5px 5px; 
+}
+.pass_btn{
+    position: absolute;
+    right: 30px;
+    top: 72px;
+    cursor: pointer;
 }
 .btn{
     background: #C71585; 

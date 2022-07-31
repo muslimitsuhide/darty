@@ -21,6 +21,7 @@ body{
 }
 .inp{
     padding:20px;
+    position: relative;
 }
 .name{
     border: 1px solid #dcdcdc; 
@@ -39,6 +40,12 @@ body{
     padding: 12px 10px; 
     width: 290px; 
     border-radius: 0px 0px 5px 5px; 
+}
+.pass_btn{
+    position: absolute;
+    right: 28px;
+    top: 112px;
+    cursor: pointer;
 }
 .reg_btn{
     background: #C71585; 
